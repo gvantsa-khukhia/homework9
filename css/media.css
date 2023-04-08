@@ -28,6 +28,11 @@
     nav{
         display: none;
     }
+
+    .title{
+        font-size: 36px;
+        margin-bottom: 32px;
+    }
 }
 
-/* article  */
+
