@@ -2,7 +2,7 @@
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .section1{
@@ -126,6 +126,7 @@ flex: 1 315px;
 .section2_text{
     width: 48%;
     height: 320px;
+    
 }
 .section2_text{
     background-color: #8E8B8B;
@@ -136,4 +137,34 @@ flex: 1 315px;
     line-height: 21px;
     text-align: justify;
     padding: 64px 109px 130px;
+}
+
+/* footer */
+
+footer{
+    width: 100%;
+    /* padding: 32px 5%; */
+    height: 217px;
+    background-color: #2A2626;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footer_logo{
+    /* width: 97px; */
+    /* height: 153px; */
+    margin-left: 125px;
+}
+
+.icons{
+display: flex;
+gap: 49px;
+margin-right: 125px;
+}
+
+.icon{
+    width: 60px;
+    height: 60px;
 }
